@@ -18,7 +18,7 @@ To represent the agents, as well as the board, we created several different clas
 
 - RISKMapGraph: Graph structure which connects all the countries and allows for their organization. Also defines which countries can be moved between.
 
-The game goes through five separate phases sequentially, where each players plays each in their order:
+The game goes through four separate phases sequentially, where each players plays each in their order, with one additional phase in the beginning of the game:
 
 - Placement Phase: Place units in territories that they do not own or that they have occupied. This is the first phase of the game and it only happens once, at the beginning of the game. Each agent is given a certain amount of troops, which are divided between all of them.
 
